@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      dockerfile: dev.dockerfile
+    volumes:
+      - ./bownee/public:/user/node/public
+      - ./bownee/src:/user/node/src
